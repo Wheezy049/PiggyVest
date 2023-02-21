@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  line-height: 1.5;
+  font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto,
+    helvetica neue, Arial, noto sans, sans-serif, apple color emoji,
+    segoe ui emoji, segoe ui symbol, noto color emoji;
+}
+.wrapper {
+  background-color: #062863;
+  background-image: url(image/data1.png), url(image/data4.png),
+    url(image/data3.png), url(image/data2.png);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: left -1.2% top -17%, right -9.5% top -1%,
+    left -5% bottom -10%, right -7% bottom -6%;
+  background-size: 15%, 15%, 15%, 15%;
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+}
+header {
+  width: 100%;
+  text-align: center;
+  padding-top: 80px;
+  margin-bottom: 1.5rem;
+}
+img {
+  width: 300px;
+  height: 80px;
+  color: white;
+}
+form {
+  background-color: white;
+  width: 600px;
+  height: 1200px;
+  margin: auto;
+  padding-top: 2rem;
+  padding-bottom: 80px;
+  border: 0px solid #e2e8f0;
+  border-radius: 20px 20px 20px 0;
+  margin-bottom: 50px;
+}
+#login{
+  width: 600px;
+  height: 600px;
+  margin-top: 1.5rem;
+  margin-bottom: 30px;
+}
+.heading{
+  color: #083e9e;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.sub-heading{
+  text-align: center;
+  font-size: 1.25rem;
+  color: #4a5568;
+  opacity: 0.7;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+label{
+  margin-left: 50px;
+  font-size: 1rem;
+  font-weight: 700;
+  opacity: 0.7;
+  margin-bottom: 50px;
+}
+input, select{
+  width: 80%;
+  margin-left: 54px;
+  margin-bottom: 50px;
+  padding: 20px 30px 20px 20px ;
+  border: 0px solid #e2e8f0;
+  border-radius: 5px;
+  background-color: #e2e8f0;
+  opacity: 0.45;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+input:hover{
+  border: 1px solid #e2e8f0;
+  background-color: #e2e8f0;
+}
+select:hover{
+ border: 1px solid #083e9e;
+}
+.btn{
+  width: 80%;
+  padding: 15px;
+  background-color: #083e9e;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  border: 0px solid #e2e8f0;
+  border-radius: 10px 10px 10px 0;
+}
+.btn:hover{
+  background-color: #062863;
+}
+.btn1{
+   display: flex;
+  justify-content: center;
+}
+.account{
+ padding-bottom: 50px;
+}
+#account{
+  padding-bottom: 20px;
+}
+a{
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+a:hover{
+  color: gray;
+}
+#forgot{
+  padding-bottom: 2rem;
+}
